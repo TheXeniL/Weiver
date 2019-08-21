@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Weiver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weiver_main" translatesAutoresizingMaskIntoConstraints="NO" id="yFr-cz-jY0">
+                                <rect key="frame" x="217" y="40" width="400" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="Nws-9o-fBF"/>
+                                    <constraint firstAttribute="height" constant="400" id="ecB-6A-OJm"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SRW-Nu-4hT">
+                                <rect key="frame" x="35" y="445" width="764" height="354"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpa-kj-bBJ" customClass="SwiftyWaveView" customModule="SwiftyWave">
+                                <rect key="frame" x="0.0" y="809" width="834" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ecc-Xn-iOj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="soundWave"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yFr-cz-jY0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0KS-Vn-E6F"/>
+                            <constraint firstItem="Tpa-kj-bBJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7DN-AF-2Sf"/>
+                            <constraint firstItem="SRW-Nu-4hT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9oL-bX-hg0"/>
+                            <constraint firstItem="yFr-cz-jY0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Hoe-M0-dio"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SRW-Nu-4hT" secondAttribute="trailing" constant="35" id="L92-WJ-NKT"/>
+                            <constraint firstItem="SRW-Nu-4hT" firstAttribute="top" secondItem="yFr-cz-jY0" secondAttribute="bottom" constant="5" id="Rxp-FR-iVT"/>
+                            <constraint firstItem="SRW-Nu-4hT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="UMW-in-oxi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tpa-kj-bBJ" secondAttribute="bottom" constant="175" id="WJL-nN-ku9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tpa-kj-bBJ" secondAttribute="trailing" id="beg-Gt-lZu"/>
+                            <constraint firstItem="Tpa-kj-bBJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c36-0P-eNz"/>
+                            <constraint firstItem="Tpa-kj-bBJ" firstAttribute="top" secondItem="SRW-Nu-4hT" secondAttribute="bottom" constant="10" id="nC3-Gz-7r8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="8bC-Xf-vdC" id="1yX-Rl-kfk"/>
+                        <outlet property="swiftyWaves" destination="Tpa-kj-bBJ" id="2E3-3Z-4f3"/>
+                        <outlet property="voiceToTextField" destination="SRW-Nu-4hT" id="3Wo-TL-JCh"/>
+                        <outlet property="weiverMainImage" destination="yFr-cz-jY0" id="OIE-2k-0Ec"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="weiver_main" width="275" height="275"/>
+    </resources>
+</document>

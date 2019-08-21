@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1727EF9522CA91C10027C5D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727EF9422CA91C10027C5D0 /* AppDelegate.swift */; };
+		1727EF9722CA91C10027C5D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727EF9622CA91C10027C5D0 /* MainViewController.swift */; };
+		1727EF9A22CA91C10027C5D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1727EF9822CA91C10027C5D0 /* Main.storyboard */; };
+		1727EF9C22CA91C30027C5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1727EF9B22CA91C30027C5D0 /* Assets.xcassets */; };
+		1727EF9F22CA91C30027C5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1727EF9D22CA91C30027C5D0 /* LaunchScreen.storyboard */; };
+		1727EFA822CAA4A90027C5D0 /* UIView+animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727EFA722CAA4A90027C5D0 /* UIView+animations.swift */; };
+		17DE9C3122CBD9C20040C027 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE9C3022CBD9C20040C027 /* API.swift */; };
+		17DE9C3322CBDABB0040C027 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE9C3222CBDABB0040C027 /* APIProtocol.swift */; };
+		17DE9C3522CBDAFA0040C027 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE9C3422CBDAFA0040C027 /* NetworkManager.swift */; };
+		17DE9C3722CBE25B0040C027 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE9C3622CBE25B0040C027 /* UITextView.swift */; };
+		17DE9C3A22CC1CAC0040C027 /* door-knock-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C3922CC1CAC0040C027 /* door-knock-3.wav */; };
+		17DE9C4622CD3DD50040C027 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C3B22CD3DD40040C027 /* OpenSans-Bold.ttf */; };
+		17DE9C4722CD3DD50040C027 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C3C22CD3DD40040C027 /* OpenSans-BoldItalic.ttf */; };
+		17DE9C4822CD3DD50040C027 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C3D22CD3DD40040C027 /* OpenSans-Regular.ttf */; };
+		17DE9C4922CD3DD50040C027 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C3E22CD3DD40040C027 /* OpenSans-SemiBoldItalic.ttf */; };
+		17DE9C4A22CD3DD50040C027 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C3F22CD3DD40040C027 /* OpenSans-Italic.ttf */; };
+		17DE9C4B22CD3DD50040C027 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C4022CD3DD40040C027 /* OpenSans-ExtraBold.ttf */; };
+		17DE9C4C22CD3DD50040C027 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C4122CD3DD40040C027 /* OpenSans-ExtraBoldItalic.ttf */; };
+		17DE9C4D22CD3DD50040C027 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C4222CD3DD40040C027 /* LICENSE.txt */; };
+		17DE9C4E22CD3DD50040C027 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C4322CD3DD40040C027 /* OpenSans-SemiBold.ttf */; };
+		17DE9C4F22CD3DD50040C027 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C4422CD3DD40040C027 /* OpenSans-LightItalic.ttf */; };
+		17DE9C5022CD3DD50040C027 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE9C4522CD3DD50040C027 /* OpenSans-Light.ttf */; };
+		4756A8053F0248C2B9036884 /* Pods_Weiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1BC707F646E86724CD2B63 /* Pods_Weiver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123E8C841784506E3B6F056D /* Pods-Weiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiver.release.xcconfig"; path = "Target Support Files/Pods-Weiver/Pods-Weiver.release.xcconfig"; sourceTree = "<group>"; };
+		1727EF9122CA91C10027C5D0 /* Weiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1727EF9422CA91C10027C5D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1727EF9622CA91C10027C5D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1727EF9922CA91C10027C5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1727EF9B22CA91C30027C5D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1727EF9E22CA91C30027C5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1727EFA022CA91C30027C5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1727EFA722CAA4A90027C5D0 /* UIView+animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+animations.swift"; sourceTree = "<group>"; };
+		17DE9C3022CBD9C20040C027 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		17DE9C3222CBDABB0040C027 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		17DE9C3422CBDAFA0040C027 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		17DE9C3622CBE25B0040C027 /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		17DE9C3922CC1CAC0040C027 /* door-knock-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "door-knock-3.wav"; sourceTree = "<group>"; };
+		17DE9C3B22CD3DD40040C027 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		17DE9C3C22CD3DD40040C027 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		17DE9C3D22CD3DD40040C027 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		17DE9C3E22CD3DD40040C027 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		17DE9C3F22CD3DD40040C027 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		17DE9C4022CD3DD40040C027 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		17DE9C4122CD3DD40040C027 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		17DE9C4222CD3DD40040C027 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		17DE9C4322CD3DD40040C027 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		17DE9C4422CD3DD40040C027 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		17DE9C4522CD3DD50040C027 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4E1BC707F646E86724CD2B63 /* Pods_Weiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75EEFA2B3282FF1C46F6D1E /* Pods-Weiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiver.debug.xcconfig"; path = "Target Support Files/Pods-Weiver/Pods-Weiver.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1727EF8E22CA91C10027C5D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4756A8053F0248C2B9036884 /* Pods_Weiver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1727EF8822CA91C10027C5D0 = {
+			isa = PBXGroup;
+			children = (
+				1727EF9322CA91C10027C5D0 /* Weiver */,
+				1727EF9222CA91C10027C5D0 /* Products */,
+				F23750E3053D7C6D4268C14A /* Pods */,
+				CF61ED86CEBA70C77D10CACB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1727EF9222CA91C10027C5D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1727EF9122CA91C10027C5D0 /* Weiver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1727EF9322CA91C10027C5D0 /* Weiver */ = {
+			isa = PBXGroup;
+			children = (
+				17DE9C3922CC1CAC0040C027 /* door-knock-3.wav */,
+				17DE9C3822CBFB740040C027 /* New Group */,
+				17DE9C2F22CBD9B30040C027 /* Networking */,
+				1727EFA622CAA4980027C5D0 /* Extensions */,
+				1727EF9B22CA91C30027C5D0 /* Assets.xcassets */,
+				1727EF9422CA91C10027C5D0 /* AppDelegate.swift */,
+				1727EF9D22CA91C30027C5D0 /* LaunchScreen.storyboard */,
+				1727EFA022CA91C30027C5D0 /* Info.plist */,
+				1727EF9622CA91C10027C5D0 /* MainViewController.swift */,
+				1727EF9822CA91C10027C5D0 /* Main.storyboard */,
+			);
+			path = Weiver;
+			sourceTree = "<group>";
+		};
+		1727EFA622CAA4980027C5D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1727EFA722CAA4A90027C5D0 /* UIView+animations.swift */,
+				17DE9C3622CBE25B0040C027 /* UITextView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17DE9C2F22CBD9B30040C027 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				17DE9C3022CBD9C20040C027 /* API.swift */,
+				17DE9C3222CBDABB0040C027 /* APIProtocol.swift */,
+				17DE9C3422CBDAFA0040C027 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		17DE9C3822CBFB740040C027 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				17DE9C4222CD3DD40040C027 /* LICENSE.txt */,
+				17DE9C3B22CD3DD40040C027 /* OpenSans-Bold.ttf */,
+				17DE9C3C22CD3DD40040C027 /* OpenSans-BoldItalic.ttf */,
+				17DE9C4022CD3DD40040C027 /* OpenSans-ExtraBold.ttf */,
+				17DE9C4122CD3DD40040C027 /* OpenSans-ExtraBoldItalic.ttf */,
+				17DE9C3F22CD3DD40040C027 /* OpenSans-Italic.ttf */,
+				17DE9C4522CD3DD50040C027 /* OpenSans-Light.ttf */,
+				17DE9C4422CD3DD40040C027 /* OpenSans-LightItalic.ttf */,
+				17DE9C3D22CD3DD40040C027 /* OpenSans-Regular.ttf */,
+				17DE9C4322CD3DD40040C027 /* OpenSans-SemiBold.ttf */,
+				17DE9C3E22CD3DD40040C027 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CF61ED86CEBA70C77D10CACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1BC707F646E86724CD2B63 /* Pods_Weiver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23750E3053D7C6D4268C14A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C75EEFA2B3282FF1C46F6D1E /* Pods-Weiver.debug.xcconfig */,
+				123E8C841784506E3B6F056D /* Pods-Weiver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1727EF9022CA91C10027C5D0 /* Weiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1727EFA322CA91C30027C5D0 /* Build configuration list for PBXNativeTarget "Weiver" */;
+			buildPhases = (
+				0440C10D7E90980FF914C4E1 /* [CP] Check Pods Manifest.lock */,
+				1727EF8D22CA91C10027C5D0 /* Sources */,
+				1727EF8E22CA91C10027C5D0 /* Frameworks */,
+				1727EF8F22CA91C10027C5D0 /* Resources */,
+				3B7868845404B48DBBE40CC8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weiver;
+			productName = Weiver;
+			productReference = 1727EF9122CA91C10027C5D0 /* Weiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1727EF8922CA91C10027C5D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nikita Elizarov";
+				TargetAttributes = {
+					1727EF9022CA91C10027C5D0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 1727EF8C22CA91C10027C5D0 /* Build configuration list for PBXProject "Weiver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1727EF8822CA91C10027C5D0;
+			productRefGroup = 1727EF9222CA91C10027C5D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1727EF9022CA91C10027C5D0 /* Weiver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1727EF8F22CA91C10027C5D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DE9C4D22CD3DD50040C027 /* LICENSE.txt in Resources */,
+				17DE9C4A22CD3DD50040C027 /* OpenSans-Italic.ttf in Resources */,
+				17DE9C4F22CD3DD50040C027 /* OpenSans-LightItalic.ttf in Resources */,
+				17DE9C5022CD3DD50040C027 /* OpenSans-Light.ttf in Resources */,
+				17DE9C4922CD3DD50040C027 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				17DE9C4722CD3DD50040C027 /* OpenSans-BoldItalic.ttf in Resources */,
+				1727EF9F22CA91C30027C5D0 /* LaunchScreen.storyboard in Resources */,
+				1727EF9C22CA91C30027C5D0 /* Assets.xcassets in Resources */,
+				17DE9C4E22CD3DD50040C027 /* OpenSans-SemiBold.ttf in Resources */,
+				17DE9C4822CD3DD50040C027 /* OpenSans-Regular.ttf in Resources */,
+				1727EF9A22CA91C10027C5D0 /* Main.storyboard in Resources */,
+				17DE9C4622CD3DD50040C027 /* OpenSans-Bold.ttf in Resources */,
+				17DE9C3A22CC1CAC0040C027 /* door-knock-3.wav in Resources */,
+				17DE9C4C22CD3DD50040C027 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				17DE9C4B22CD3DD50040C027 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0440C10D7E90980FF914C4E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weiver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B7868845404B48DBBE40CC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weiver/Pods-Weiver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weiver/Pods-Weiver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weiver/Pods-Weiver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1727EF8D22CA91C10027C5D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DE9C3722CBE25B0040C027 /* UITextView.swift in Sources */,
+				1727EF9722CA91C10027C5D0 /* MainViewController.swift in Sources */,
+				1727EFA822CAA4A90027C5D0 /* UIView+animations.swift in Sources */,
+				17DE9C3122CBD9C20040C027 /* API.swift in Sources */,
+				17DE9C3322CBDABB0040C027 /* APIProtocol.swift in Sources */,
+				1727EF9522CA91C10027C5D0 /* AppDelegate.swift in Sources */,
+				17DE9C3522CBDAFA0040C027 /* NetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1727EF9822CA91C10027C5D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1727EF9922CA91C10027C5D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1727EF9D22CA91C30027C5D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1727EF9E22CA91C30027C5D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1727EFA122CA91C30027C5D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1727EFA222CA91C30027C5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1727EFA422CA91C30027C5D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75EEFA2B3282FF1C46F6D1E /* Pods-Weiver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRTXJ75BR6;
+				INFOPLIST_FILE = Weiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.innopolis.weiver1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1727EFA522CA91C30027C5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123E8C841784506E3B6F056D /* Pods-Weiver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRTXJ75BR6;
+				INFOPLIST_FILE = Weiver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.innopolis.weiver1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1727EF8C22CA91C10027C5D0 /* Build configuration list for PBXProject "Weiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1727EFA122CA91C30027C5D0 /* Debug */,
+				1727EFA222CA91C30027C5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1727EFA322CA91C30027C5D0 /* Build configuration list for PBXNativeTarget "Weiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1727EFA422CA91C30027C5D0 /* Debug */,
+				1727EFA522CA91C30027C5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1727EF8922CA91C10027C5D0 /* Project object */;
+}
